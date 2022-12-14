@@ -2,10 +2,10 @@ import React, { PureComponent } from "react";
 import {
     View,
     FlatList,
-    ViewPropTypes,
     InteractionManager,
     Dimensions
 } from "react-native";
+import {ViewPropTypes} from 'deprecated-react-native-prop-types';
 import PropTypes from "prop-types";
 import Scrolling from "react-native-scrolling";
 import { createResponder } from "react-native-easy-guesture-responder";
